@@ -30,12 +30,24 @@
     <ClInclude Include="Homework04FileExplorer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DriveHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DriveSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Homework04FileExplorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DriveSize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -49,6 +61,39 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Homework04FileExplorer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-cd.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-c-drive.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-computer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-desktop.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-file.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-folder.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-cd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-c-drive.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-file.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-folder.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icons8-computer.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

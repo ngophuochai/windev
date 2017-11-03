@@ -18,6 +18,17 @@
 #define IDI_FLOPPY                      114
 #define IDI_CD                          115
 #define IDR_MAINFRAME                   128
+#define IDB_CD                          146
+#define IDB_DRIVE                       147
+#define IDB_MYCOMPUTER                  148
+#define IDB_DESKTOP                     149
+#define IDB_FILE                        150
+#define IDB_FOLDER                      151
+#define IDI_DRIVE                       153
+#define IDI_FILE                        154
+#define IDI_FOLDER                      155
+#define IDI_ICON1                       157
+#define IDI_MYCOMPUTER                  157
 #define IDC_STATIC                      -1
 
 // Next default values for new objects
@@ -25,9 +36,9 @@
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NO_MFC                     1
-#define _APS_NEXT_RESOURCE_VALUE        129
+#define _APS_NEXT_RESOURCE_VALUE        158
 #define _APS_NEXT_COMMAND_VALUE         32771
 #define _APS_NEXT_CONTROL_VALUE         1000
-#define _APS_NEXT_SYMED_VALUE           116
+#define _APS_NEXT_SYMED_VALUE           119
 #endif
 #endif

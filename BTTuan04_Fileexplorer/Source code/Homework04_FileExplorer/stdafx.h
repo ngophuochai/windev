@@ -21,11 +21,7 @@
 #pragma comment(lib, "comctl32.lib")
 #include <shlwapi.h>
 #pragma comment(lib, "shlwapi.lib")
-#define KB 1
-#define MB 2
-#define GB 3
-#define TB 4
-#define RADIX 10
-
+#include <shellapi.h>
+#include <Shlobj.h>
 
 // TODO: reference additional headers your program requires here

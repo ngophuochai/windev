@@ -146,12 +146,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DriveHelper.h" />
+    <ClInclude Include="DriveSize.h" />
     <ClInclude Include="Homework04FileExplorer.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DriveHelper.cpp" />
+    <ClCompile Include="DriveSize.cpp" />
     <ClCompile Include="Homework04FileExplorer.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -165,6 +169,17 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Homework04FileExplorer.ico" />
+    <Image Include="icons8-c-drive.bmp" />
+    <Image Include="icons8-c-drive.ico" />
+    <Image Include="icons8-cd.bmp" />
+    <Image Include="icons8-cd.ico" />
+    <Image Include="icons8-computer.bmp" />
+    <Image Include="icons8-computer.ico" />
+    <Image Include="icons8-desktop.bmp" />
+    <Image Include="icons8-file.bmp" />
+    <Image Include="icons8-file.ico" />
+    <Image Include="icons8-folder.bmp" />
+    <Image Include="icons8-folder.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

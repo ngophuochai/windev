@@ -35,6 +35,16 @@ IDI_HOMEWORK04FILEEXPLORER ICON                    "Homework04FileExplorer.ico"
 
 IDI_SMALL               ICON                    "small.ico"
 
+IDI_CD                  ICON                    "icons8-cd.ico"
+
+IDI_DRIVE               ICON                    "icons8-c-drive.ico"
+
+IDI_FILE                ICON                    "icons8-file.ico"
+
+IDI_FOLDER              ICON                    "icons8-folder.ico"
+
+IDI_MYCOMPUTER          ICON                    "icons8-computer.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -131,6 +141,24 @@ BEGIN
 END
 
 #endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CD                  BITMAP                  "icons8-cd.bmp"
+
+IDB_DRIVE               BITMAP                  "icons8-c-drive.bmp"
+
+IDB_MYCOMPUTER          BITMAP                  "icons8-computer.bmp"
+
+IDB_DESKTOP             BITMAP                  "icons8-desktop.bmp"
+
+IDB_FILE                BITMAP                  "icons8-file.bmp"
+
+IDB_FOLDER              BITMAP                  "icons8-folder.bmp"
 
 
 /////////////////////////////////////////////////////////////////////////////
