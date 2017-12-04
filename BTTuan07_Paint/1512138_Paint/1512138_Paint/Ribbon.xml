@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+  <Application.Commands>
+    <Command Name="cmdLine" Symbol="ID_BTN_LINE" LabelTitle="Line">
+      <Command.LargeImages>
+        <Image Id="201">Images/Line.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdRectangle" Symbol="ID_BTN_RECTANGLE" LabelTitle="Rectangle">
+       <Command.LargeImages>
+        <Image Id="202">Images/Rectangle.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdEllipse" Symbol="ID_BTN_ELLIPSE" LabelTitle="Ellipse">
+      <Command.LargeImages>
+        <Image Id="203">Images/Ellipse.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdHome" Symbol="ID_TAB_HOME" LabelTitle="Home">
+    </Command>
+    <Command Name="cmdShapes" Symbol="ID_GROUP_SHAPES" LabelTitle="Shapes">
+    </Command>
+    <Command Name="cmdSize" Symbol="ID_GROUP_SIZE" LabelTitle="Size">
+      <Command.LargeImages>
+        <Image Id="204">Images/Size.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdGroup2" Symbol="ID_GROUP_GROUP2" LabelTitle="">
+    </Command>
+    <Command Name="cmdGroup3" Symbol="ID_GROUP_GROUP3" LabelTitle="">
+    </Command>
+    <Command Name="cmdSizeItem1" Symbol="ID_SIZE_ITEM1" LabelTitle="1">
+      <Command.LargeImages>
+        <Image Id="205">Images/LineSize1.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSizeItem2" Symbol="ID_SIZE_ITEM2" LabelTitle="2">
+        <Command.LargeImages>
+        <Image Id="206">Images/LineSize2.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSizeItem3" Symbol="ID_SIZE_ITEM3" LabelTitle="3">
+      <Command.LargeImages>
+        <Image Id="207">Images/LineSize3.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSizeItem4" Symbol="ID_SIZE_ITEM4" LabelTitle="4">
+      <Command.LargeImages>
+        <Image Id="208">Images/LineSize4.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdOpen" Symbol="ID_FILE_OPEN" LabelTitle="Open">
+      <Command.LargeImages>
+        <Image Id="209">Images/Open.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSave" Symbol="ID_FILE_SAVE" LabelTitle="Save">
+      <Command.LargeImages>
+        <Image Id="210">Images/Save.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdSaveAs" Symbol="ID_FILE_SAVEAS" LabelTitle="Save as">
+      <Command.LargeImages>
+        <Image Id="211">Images/SaveAs.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdExit" Symbol="ID_FILE_EXIT" LabelTitle="Exit">
+      <Command.LargeImages>
+        <Image Id="212">Images/Exit.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdClear" Symbol="ID_BTN_CLEAR" LabelTitle="Clear">
+      <Command.LargeImages>
+        <Image Id="213">Images/Clear.png</Image>
+      </Command.LargeImages>
+    </Command>
+  </Application.Commands>
+	<Application.Views>
+		<Ribbon>
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu CommandName="fileMenu">
+           <MenuGroup>
+              <Button CommandName="cmdOpen" />
+              <Button CommandName="cmdSave" />
+              <Button CommandName="cmdSaveAs" />
+           </MenuGroup>
+           <MenuGroup>
+              <Button CommandName="cmdExit" />
+           </MenuGroup>
+        </ApplicationMenu>
+      </Ribbon.ApplicationMenu>
+			<Ribbon.Tabs>
+				<Tab CommandName="cmdHome">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group="cmdShapes" Size="Large" />
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+					<Group CommandName="cmdShapes" SizeDefinition="ThreeButtons">
+						<ToggleButton CommandName="cmdLine" />
+            <ToggleButton CommandName="cmdRectangle" />
+            <ToggleButton CommandName="cmdEllipse" />
+					</Group>
+          <Group CommandName="cmdGroup2" SizeDefinition="OneButton">
+            <DropDownButton CommandName="cmdSize">
+              <MenuGroup Class="MajorItems">
+                <ToggleButton CommandName="cmdSizeItem1" />
+                <ToggleButton CommandName="cmdSizeItem2" />
+                <ToggleButton CommandName="cmdSizeItem3" />
+                <ToggleButton CommandName="cmdSizeItem4" />
+              </MenuGroup>
+            </DropDownButton>
+          </Group>
+          <Group CommandName="cmdGroup3" SizeDefinition="OneButton">
+            <Button CommandName="cmdClear" />
+          </Group>
+				</Tab>
+			</Ribbon.Tabs>
+		</Ribbon>
+	</Application.Views>
+</Application>

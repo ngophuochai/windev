@@ -1,0 +1,111 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonIDs.h"
+
+STRINGTABLE 
+BEGIN
+    ID_BTN_LINE_LabelTitle_RESID L"Line" /* LabelTitle ID_BTN_LINE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_LINE_LargeImages_RESID    IMAGE    "Images\\Line.png" /* LargeImages ID_BTN_LINE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_RECTANGLE_LabelTitle_RESID L"Rectangle" /* LabelTitle ID_BTN_RECTANGLE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_RECTANGLE_LargeImages_RESID    IMAGE    "Images\\Rectangle.png" /* LargeImages ID_BTN_RECTANGLE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_ELLIPSE_LabelTitle_RESID L"Ellipse" /* LabelTitle ID_BTN_ELLIPSE_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_ELLIPSE_LargeImages_RESID    IMAGE    "Images\\Ellipse.png" /* LargeImages ID_BTN_ELLIPSE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_TAB_HOME_LabelTitle_RESID L"Home" /* LabelTitle ID_TAB_HOME_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GROUP_SHAPES_LabelTitle_RESID L"Shapes" /* LabelTitle ID_GROUP_SHAPES_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GROUP_SIZE_LabelTitle_RESID L"Size" /* LabelTitle ID_GROUP_SIZE_LabelTitle_RESID: (null) */
+END
+
+ID_GROUP_SIZE_LargeImages_RESID    IMAGE    "Images\\Size.png" /* LargeImages ID_GROUP_SIZE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_GROUP_GROUP2_LabelTitle_RESID L"" /* LabelTitle ID_GROUP_GROUP2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_GROUP_GROUP3_LabelTitle_RESID L"" /* LabelTitle ID_GROUP_GROUP3_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SIZE_ITEM1_LabelTitle_RESID L"1" /* LabelTitle ID_SIZE_ITEM1_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_ITEM1_LargeImages_RESID    IMAGE    "Images\\LineSize1.png" /* LargeImages ID_SIZE_ITEM1_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SIZE_ITEM2_LabelTitle_RESID L"2" /* LabelTitle ID_SIZE_ITEM2_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_ITEM2_LargeImages_RESID    IMAGE    "Images\\LineSize2.png" /* LargeImages ID_SIZE_ITEM2_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SIZE_ITEM3_LabelTitle_RESID L"3" /* LabelTitle ID_SIZE_ITEM3_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_ITEM3_LargeImages_RESID    IMAGE    "Images\\LineSize3.png" /* LargeImages ID_SIZE_ITEM3_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_SIZE_ITEM4_LabelTitle_RESID L"4" /* LabelTitle ID_SIZE_ITEM4_LabelTitle_RESID: (null) */
+END
+
+ID_SIZE_ITEM4_LargeImages_RESID    IMAGE    "Images\\LineSize4.png" /* LargeImages ID_SIZE_ITEM4_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_FILE_OPEN_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_OPEN_LargeImages_RESID    IMAGE    "Images\\Open.png" /* LargeImages ID_FILE_OPEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_FILE_SAVE_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_SAVE_LargeImages_RESID    IMAGE    "Images\\Save.png" /* LargeImages ID_FILE_SAVE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_SAVEAS_LabelTitle_RESID L"Save as" /* LabelTitle ID_FILE_SAVEAS_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_SAVEAS_LargeImages_RESID    IMAGE    "Images\\SaveAs.png" /* LargeImages ID_FILE_SAVEAS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_FILE_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_FILE_EXIT_LabelTitle_RESID: (null) */
+END
+
+ID_FILE_EXIT_LargeImages_RESID    IMAGE    "Images\\Exit.png" /* LargeImages ID_FILE_EXIT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_BTN_CLEAR_LabelTitle_RESID L"Clear" /* LabelTitle ID_BTN_CLEAR_LabelTitle_RESID: (null) */
+END
+
+ID_BTN_CLEAR_LargeImages_RESID    IMAGE    "Images\\Clear.png" /* LargeImages ID_BTN_CLEAR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    fileMenu_LabelTitle_RESID L"Label:fileMenu" /* LabelTitle fileMenu_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "C:\\Users\\PhuocHai\\Desktop\\windev\\windev\\BTTuan07_Paint\\1512138_Paint\\1512138_Paint\\\\Ribbon.bml"
