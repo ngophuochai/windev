@@ -115,7 +115,6 @@ STDMETHODIMP CCommandHandler::Execute(
 {
 	PROPVARIANT var;
 	var.vt = 11;
-
 	var.boolVal = 0;
 
 	if (nCmdID == ID_BTN_LINE || nCmdID == ID_BTN_RECTANGLE || nCmdID == ID_BTN_ELLIPSE) {
@@ -131,16 +130,20 @@ STDMETHODIMP CCommandHandler::Execute(
 		g_pFramework->SetUICommandProperty(ID_SIZE_ITEM4, UI_PKEY_BooleanValue, var);
 	}
 
+	if (nCmdID == ID_COLOR_BLACK || nCmdID == ID_COLOR_RED || nCmdID == ID_COLOR_GREEN || nCmdID == ID_COLOR_BLUE ||
+		nCmdID == ID_COLOR_YELLOW || nCmdID == ID_COLOR_MAGENTA || nCmdID == ID_COLOR_CYAN) {
+		g_pFramework->SetUICommandProperty(ID_COLOR_BLACK, UI_PKEY_BooleanValue, var);
+		g_pFramework->SetUICommandProperty(ID_COLOR_RED, UI_PKEY_BooleanValue, var);
+		g_pFramework->SetUICommandProperty(ID_COLOR_GREEN, UI_PKEY_BooleanValue, var);
+		g_pFramework->SetUICommandProperty(ID_COLOR_BLUE, UI_PKEY_BooleanValue, var);
+		g_pFramework->SetUICommandProperty(ID_COLOR_YELLOW, UI_PKEY_BooleanValue, var);
+		g_pFramework->SetUICommandProperty(ID_COLOR_MAGENTA, UI_PKEY_BooleanValue, var);
+		g_pFramework->SetUICommandProperty(ID_COLOR_CYAN, UI_PKEY_BooleanValue, var);
+	}
+
 	var.boolVal = -1;
 	switch (nCmdID)
 	{
-	/*case ID_BTN_CLEAR: 
-		for (int i = 0; i < shapes.size(); i++) {
-			delete shapes[i]->pen;
-			delete shapes[i];
-		}
-		shapes.clear();
-		break;*/
 	case ID_BTN_LINE: g_pFramework->SetUICommandProperty(ID_BTN_LINE, UI_PKEY_BooleanValue, var); break;
 	case ID_BTN_RECTANGLE: g_pFramework->SetUICommandProperty(ID_BTN_RECTANGLE, UI_PKEY_BooleanValue, var); break;
 	case ID_BTN_ELLIPSE: g_pFramework->SetUICommandProperty(ID_BTN_ELLIPSE, UI_PKEY_BooleanValue, var); break;
@@ -148,6 +151,13 @@ STDMETHODIMP CCommandHandler::Execute(
 	case ID_SIZE_ITEM2: g_pFramework->SetUICommandProperty(ID_SIZE_ITEM2, UI_PKEY_BooleanValue, var); break;
 	case ID_SIZE_ITEM3: g_pFramework->SetUICommandProperty(ID_SIZE_ITEM3, UI_PKEY_BooleanValue, var); break;
 	case ID_SIZE_ITEM4: g_pFramework->SetUICommandProperty(ID_SIZE_ITEM4, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_BLACK: g_pFramework->SetUICommandProperty(ID_COLOR_BLACK, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_RED: g_pFramework->SetUICommandProperty(ID_COLOR_RED, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_GREEN: g_pFramework->SetUICommandProperty(ID_COLOR_GREEN, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_BLUE: g_pFramework->SetUICommandProperty(ID_COLOR_BLUE, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_YELLOW: g_pFramework->SetUICommandProperty(ID_COLOR_YELLOW, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_MAGENTA: g_pFramework->SetUICommandProperty(ID_COLOR_MAGENTA, UI_PKEY_BooleanValue, var); break;
+	case ID_COLOR_CYAN: g_pFramework->SetUICommandProperty(ID_COLOR_CYAN, UI_PKEY_BooleanValue, var); break;
 	}
 
 	UNREFERENCED_PARAMETER(pCommandExecutionProperties);
@@ -155,6 +165,10 @@ STDMETHODIMP CCommandHandler::Execute(
 	UNREFERENCED_PARAMETER(key);
 	UNREFERENCED_PARAMETER(verb);
 	UNREFERENCED_PARAMETER(nCmdID);
+
+	SendMessage(GetForegroundWindow(), WM_COMMAND, nCmdID, 0);
+	if (nCmdID == ID_BTN_EXIT)
+		SendMessage(GetForegroundWindow(), WM_DESTROY, nCmdID, 0);
 
 	return S_OK;
 }

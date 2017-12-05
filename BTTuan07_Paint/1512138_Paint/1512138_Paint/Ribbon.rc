@@ -75,34 +75,75 @@ END
 ID_SIZE_ITEM4_LargeImages_RESID    IMAGE    "Images\\LineSize4.png" /* LargeImages ID_SIZE_ITEM4_LargeImages_RESID: (null) */
 STRINGTABLE 
 BEGIN
-    ID_FILE_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_FILE_OPEN_LabelTitle_RESID: (null) */
+    ID_BTN_OPEN_LabelTitle_RESID L"Open" /* LabelTitle ID_BTN_OPEN_LabelTitle_RESID: (null) */
 END
 
-ID_FILE_OPEN_LargeImages_RESID    IMAGE    "Images\\Open.png" /* LargeImages ID_FILE_OPEN_LargeImages_RESID: (null) */
+ID_BTN_OPEN_LargeImages_RESID    IMAGE    "Images\\Open.png" /* LargeImages ID_BTN_OPEN_LargeImages_RESID: (null) */
 STRINGTABLE 
 BEGIN
-    ID_FILE_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_FILE_SAVE_LabelTitle_RESID: (null) */
+    ID_BTN_SAVE_LabelTitle_RESID L"Save" /* LabelTitle ID_BTN_SAVE_LabelTitle_RESID: (null) */
 END
 
-ID_FILE_SAVE_LargeImages_RESID    IMAGE    "Images\\Save.png" /* LargeImages ID_FILE_SAVE_LargeImages_RESID: (null) */
+ID_BTN_SAVE_LargeImages_RESID    IMAGE    "Images\\Save.png" /* LargeImages ID_BTN_SAVE_LargeImages_RESID: (null) */
 STRINGTABLE 
 BEGIN
-    ID_FILE_SAVEAS_LabelTitle_RESID L"Save as" /* LabelTitle ID_FILE_SAVEAS_LabelTitle_RESID: (null) */
+    ID_BTN_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_BTN_EXIT_LabelTitle_RESID: (null) */
 END
 
-ID_FILE_SAVEAS_LargeImages_RESID    IMAGE    "Images\\SaveAs.png" /* LargeImages ID_FILE_SAVEAS_LargeImages_RESID: (null) */
+ID_BTN_EXIT_LargeImages_RESID    IMAGE    "Images\\Exit.png" /* LargeImages ID_BTN_EXIT_LargeImages_RESID: (null) */
 STRINGTABLE 
 BEGIN
-    ID_FILE_EXIT_LabelTitle_RESID L"Exit" /* LabelTitle ID_FILE_EXIT_LabelTitle_RESID: (null) */
-END
-
-ID_FILE_EXIT_LargeImages_RESID    IMAGE    "Images\\Exit.png" /* LargeImages ID_FILE_EXIT_LargeImages_RESID: (null) */
-STRINGTABLE 
-BEGIN
-    ID_BTN_CLEAR_LabelTitle_RESID L"Clear" /* LabelTitle ID_BTN_CLEAR_LabelTitle_RESID: (null) */
+    ID_BTN_CLEAR_LabelTitle_RESID L"New" /* LabelTitle ID_BTN_CLEAR_LabelTitle_RESID: (null) */
 END
 
 ID_BTN_CLEAR_LargeImages_RESID    IMAGE    "Images\\Clear.png" /* LargeImages ID_BTN_CLEAR_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_RED_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_RED_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_RED_LargeImages_RESID    IMAGE    "Images\\Red.png" /* LargeImages ID_COLOR_RED_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_GREEN_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_GREEN_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_GREEN_LargeImages_RESID    IMAGE    "Images\\Green.png" /* LargeImages ID_COLOR_GREEN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_BLUE_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_BLUE_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_BLUE_LargeImages_RESID    IMAGE    "Images\\Blue.png" /* LargeImages ID_COLOR_BLUE_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_BLACK_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_BLACK_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_BLACK_LargeImages_RESID    IMAGE    "Images\\Black.png" /* LargeImages ID_COLOR_BLACK_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_CYAN_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_CYAN_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_CYAN_LargeImages_RESID    IMAGE    "Images\\Cyan.png" /* LargeImages ID_COLOR_CYAN_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_MAGENTA_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_MAGENTA_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_MAGENTA_LargeImages_RESID    IMAGE    "Images\\Magenta.png" /* LargeImages ID_COLOR_MAGENTA_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_YELLOW_LabelTitle_RESID L"" /* LabelTitle ID_COLOR_YELLOW_LabelTitle_RESID: (null) */
+END
+
+ID_COLOR_YELLOW_LargeImages_RESID    IMAGE    "Images\\Yellow.png" /* LargeImages ID_COLOR_YELLOW_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    ID_COLOR_LabelTitle_RESID L"Color" /* LabelTitle ID_COLOR_LabelTitle_RESID: (null) */
+END
+
 STRINGTABLE 
 BEGIN
     fileMenu_LabelTitle_RESID L"Label:fileMenu" /* LabelTitle fileMenu_LabelTitle_RESID: (null) */

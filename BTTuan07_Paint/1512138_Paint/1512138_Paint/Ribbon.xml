@@ -49,30 +49,62 @@
         <Image Id="208">Images/LineSize4.png</Image>
       </Command.LargeImages>
     </Command>
-    <Command Name="cmdOpen" Symbol="ID_FILE_OPEN" LabelTitle="Open">
+    <Command Name="cmdOpen" Symbol="ID_BTN_OPEN" LabelTitle="Open">
       <Command.LargeImages>
         <Image Id="209">Images/Open.png</Image>
       </Command.LargeImages>
     </Command>
-    <Command Name="cmdSave" Symbol="ID_FILE_SAVE" LabelTitle="Save">
+    <Command Name="cmdSave" Symbol="ID_BTN_SAVE" LabelTitle="Save">
       <Command.LargeImages>
         <Image Id="210">Images/Save.png</Image>
       </Command.LargeImages>
     </Command>
-    <Command Name="cmdSaveAs" Symbol="ID_FILE_SAVEAS" LabelTitle="Save as">
-      <Command.LargeImages>
-        <Image Id="211">Images/SaveAs.png</Image>
-      </Command.LargeImages>
-    </Command>
-    <Command Name="cmdExit" Symbol="ID_FILE_EXIT" LabelTitle="Exit">
+    <Command Name="cmdExit" Symbol="ID_BTN_EXIT" LabelTitle="Exit">
       <Command.LargeImages>
         <Image Id="212">Images/Exit.png</Image>
       </Command.LargeImages>
     </Command>
-    <Command Name="cmdClear" Symbol="ID_BTN_CLEAR" LabelTitle="Clear">
+    <Command Name="cmdClear" Symbol="ID_BTN_CLEAR" LabelTitle="New">
       <Command.LargeImages>
         <Image Id="213">Images/Clear.png</Image>
       </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorRed" Symbol="ID_COLOR_RED" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="214">Images/Red.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorGreen" Symbol="ID_COLOR_GREEN" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="215">Images/Green.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorBlue" Symbol="ID_COLOR_BLUE" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="216">Images/Blue.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorBlack" Symbol="ID_COLOR_BLACK" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="217">Images/Black.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorCyan" Symbol="ID_COLOR_CYAN" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="218">Images/Cyan.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorMagenta" Symbol="ID_COLOR_MAGENTA" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="219">Images/Magenta.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColorYellow" Symbol="ID_COLOR_YELLOW" LabelTitle="">
+      <Command.LargeImages>
+        <Image Id="220">Images/Yellow.png</Image>
+      </Command.LargeImages>
+    </Command>
+    <Command Name="cmdColor" Symbol="ID_COLOR" LabelTitle="Color">
     </Command>
   </Application.Commands>
 	<Application.Views>
@@ -80,9 +112,9 @@
       <Ribbon.ApplicationMenu>
         <ApplicationMenu CommandName="fileMenu">
            <MenuGroup>
-              <Button CommandName="cmdOpen" />
-              <Button CommandName="cmdSave" />
-              <Button CommandName="cmdSaveAs" />
+             <Button CommandName="cmdClear" />
+             <Button CommandName="cmdOpen" />
+             <Button CommandName="cmdSave" />
            </MenuGroup>
            <MenuGroup>
               <Button CommandName="cmdExit" />
@@ -113,8 +145,14 @@
               </MenuGroup>
             </DropDownButton>
           </Group>
-          <Group CommandName="cmdGroup3" SizeDefinition="OneButton">
-            <Button CommandName="cmdClear" />
+          <Group CommandName="cmdColor" SizeDefinition="SevenButtons">
+            <ToggleButton CommandName="cmdColorBlack" />
+            <ToggleButton CommandName="cmdColorRed" />
+            <ToggleButton CommandName="cmdColorGreen" />
+            <ToggleButton CommandName="cmdColorBlue" />
+            <ToggleButton CommandName="cmdColorMagenta" />
+            <ToggleButton CommandName="cmdColorYellow" />
+            <ToggleButton CommandName="cmdColorCyan" />
           </Group>
 				</Tab>
 			</Ribbon.Tabs>
